@@ -25,4 +25,4 @@ def update_item(item_id: int, item: Item):
 
 def start():
   """Launched with `poetry run start` at root level"""
-  uvicorn.run("tourscraperapi.app:app", host="0.0.0.0", port=8000, reload=True)
+  uvicorn.run("tourscraperapi.main:app", host="0.0.0.0", port=8000, reload=True)
