@@ -17,3 +17,12 @@ poetry install
 ```
 poetry run start
 ```
+
+## Instructions for Maintainers
+
+### Publishing
+
+```
+poetry build
+poetry publish
+```
