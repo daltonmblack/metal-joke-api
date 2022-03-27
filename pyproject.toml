@@ -1,11 +1,11 @@
 [tool.poetry]
-  name = "tourscraperapi"
+  name = "metaljokeapi"
   version = "0.1.0"
-  description = "API that exposes the tour-scraper project"
+  description = "API that serves metal music jokes"
   authors = ["Dalton Black <projectdjswag@gmail.com>"]
 
 [tool.poetry.scripts]
-  start = "tourscraperapi.main:start"
+  start = "metaljokeapi.main:start"
 
 [tool.poetry.dependencies]
   python = "^3.8"
