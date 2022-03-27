@@ -1,0 +1,1 @@
+{"id":"673cc175-b052-431e-b069-9b96f5fad7b7","space":20300,"runtime":"python3.9","name":"tourscraperapi","path":"33szdz","project":"b0ah21cx","account":"144798365827","region":"us-east-1","deps":["fastapi","uvicorn"],"envs":null,"public":true,"log_level":"debug","cron":""}

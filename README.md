@@ -20,7 +20,13 @@ poetry run start
 
 ## Instructions for Maintainers
 
-### Publishing
+### Deploying to Deta
+
+```
+deta deploy tourscraperapi
+```
+
+### Publishing to PyPi
 
 ```
 poetry build
