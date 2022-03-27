@@ -1,5 +1,5 @@
-# tour-scraper-api
-API that serves data form the tour-scraper project: https://github.com/daltonmblack/tour-scraper
+# metal-joke-api
+API that serves metal music jokes
 
 ## Initial Setup
 
@@ -12,7 +12,7 @@ API that serves data form the tour-scraper project: https://github.com/daltonmbl
 poetry install
 ```
 
-## Running Tour Scraper API
+## Running Metal Joke API
 
 ```
 poetry run start
@@ -23,7 +23,7 @@ poetry run start
 ### Deploying to Deta
 
 ```
-deta deploy tourscraperapi
+deta deploy metaljokeapi
 ```
 
 ### Publishing to PyPi

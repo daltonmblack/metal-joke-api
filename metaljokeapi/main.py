@@ -6,7 +6,7 @@ from pydantic import BaseModel
 
 from joke_generator import JokeGenerator
 
-# from tourscraperapi.joke_generator import JokeGenerator
+# from metaljokeapi.joke_generator import JokeGenerator
 
 app = FastAPI()
 
@@ -36,4 +36,4 @@ def read_joke():
 
 def start():
   """Launched with `poetry run start` at root level"""
-  uvicorn.run("tourscraperapi.main:app", host="0.0.0.0", port=8000, reload=True)
+  uvicorn.run("metaljokeapi.main:app", host="0.0.0.0", port=8000, reload=True)
